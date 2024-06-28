@@ -68,7 +68,8 @@ class BunkerTasks:
                 **Note**: {self.__tip_section()}
                 """
                 ), 
-            agent=agent
+            agent=agent,
+            expected_output="Detailed report on the chosen data for the Region, Grade, and Period"
             )
 
 
@@ -93,7 +94,8 @@ class BunkerTasks:
                 **Note**: {self.__tip_section()}
                 """
                 ), 
-            agent=agent
+            agent=agent,
+            expected_output="Detailed report on the chosen data for the Region, Grade, and Period"
             )
 
 
@@ -118,5 +120,6 @@ class BunkerTasks:
                 **Note**: {self.__tip_section()}
                 """
                 ), 
-            agent=agent
+            agent=agent,
+            expected_output="intuitive and comprehensive bunker report"
             )
